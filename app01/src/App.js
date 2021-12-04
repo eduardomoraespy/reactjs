@@ -9,9 +9,20 @@ export default  function App(){
     return (2021)
   }
 
-  const nome = 'Mário'
-  const idade = 20
+
   return(
+
+    <>
+      <header>
+
+        <div style={{width: "30%", height: "80px",}}> 
+          <img src={Logo} style={{width: "30%", height: "80px", marginLeft: "10%"}}/>
+          <p> title 1</p>
+        </div>
+  
+      </header>
+    </>
+    /*
     <>
       <div class="row">
 
@@ -23,8 +34,9 @@ export default  function App(){
 
         <p>todos direitos reservados - {ano()}</p>
       </div>
-    </>
-  )
+    </>*/
+
+  );
 }
 
 // export default App()  // Exportação do retorno da função App()
