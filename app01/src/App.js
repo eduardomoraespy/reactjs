@@ -1,18 +1,14 @@
 import React from 'react'; // importação para usar react
-import Header from './componentes/Header' // importando componente header
-import Body from './componentes/body'
+import Login from './componentes/login'
 
 // função que retorna algo
 export default  function App(){  
 
 
   return(
-
     <>
-      <Header/>
-      <Body/>
+     <Login/>
     </>
-
   );
 }
 
