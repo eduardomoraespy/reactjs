@@ -1,5 +1,5 @@
 import React from 'react'; // importação para usar react
-import Login from './componentes/login'
+import Relogio from './componentes/relogio'
 
 // função que retorna algo
 export default  function App(){  
@@ -7,7 +7,7 @@ export default  function App(){
 
   return(
     <>
-     <Login/>
+     <Relogio/>
     </>
   );
 }
