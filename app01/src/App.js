@@ -1,13 +1,14 @@
-import React from 'react'; // importação para usar react
-import Login from './componentes/login'
+import React, {useState} from 'react'; // importação para usar react
+import Numero from './componentes/Numero';
+
 
 // função que retorna algo
 export default  function App(){  
-
+  const [num, ConnfigState]=useState(10+10)
 
   return(
     <>
-     <Login/>
+      <Numero num={num} ConnfigState={ConnfigState}/>
     </>
   );
 }
