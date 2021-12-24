@@ -1,14 +1,15 @@
 import React, {useState} from 'react'; // importação para usar react
-import Numero from './componentes/Numero';
+import Led from './componentes/Led'
 
 
 // função que retorna algo
 export default  function App(){  
-  const [num, ConnfigState]=useState(10+10)
+  
+  const [ligado, TrocaEstado] = useState(false)
 
   return(
     <>
-      <Numero num={num} ConnfigState={ConnfigState}/>
+      <Led ligado={ligado} TrocaEstado={TrocaEstado}/>
     </>
   );
 }
